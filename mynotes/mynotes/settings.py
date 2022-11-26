@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #Here we have connected the app to the main project
+    'api.apps.ApiConfig',
+    # Adding this to add DRF in Django
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
